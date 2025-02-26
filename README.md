@@ -22,7 +22,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
 2. **Navega al directorio del proyecto:**
 
    ```bash
-   cd Pokedex
+   cd pokedex-vue
    ```
 
 3. **Instala las dependencias:**
