@@ -3,14 +3,14 @@
     <div class="flex justify-around">
       <button
         @click="filterFavorites(false)"
-        :class="!showFavorites ? 'bg-red-500 text-white' : 'bg-gray-300 text-white'"
+        :class="!showFavorites ? 'bg-red-500 text-white hover:bg-customRedHover ' : 'text-white bg-gray-300 hover:bg-gray-400'"
         class="flex items-center justify-center px-4 py-2 rounded-full shadow-md w-36 sm:w-64 mx-1 text-center"
       >
         <font-awesome-icon icon="list" class="w-4 h-4 mr-2" /> All
       </button>
       <button
         @click="filterFavorites(true)"
-        :class="showFavorites ? 'bg-red-500 text-white' : 'text-white bg-gray-300'"
+        :class="showFavorites ? 'bg-red-500 text-white hover:bg-customRedHover' : 'text-white bg-gray-300 hover:bg-gray-400'"
         class="flex items-center justify-center px-4 py-2 rounded-full shadow-md w-36 sm:w-64 mx-1 text-center"
       >
         <font-awesome-icon icon="star" class="w-4 h-4 mr-2" /> Favorites

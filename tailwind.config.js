@@ -10,6 +10,7 @@ module.exports = {
         customYellow: '#ECA539',
         customBg: '#F9F9F9',
         customBlue: '#7ECCF9',
+        customRedHover: '#C00E20',
       },
     },
   },

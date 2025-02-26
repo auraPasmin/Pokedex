@@ -11,7 +11,7 @@
       <span class="block md:inline">to Trainers in the Pokémon world.</span>
     </h2>
     
-    <router-link to="/pokemon-list" class="bg-customRed text-white px-4 py-2 rounded-full hover:bg-red-700">
+    <router-link to="/pokemon-list" class="bg-customRed text-white px-4 py-2 rounded-full hover:bg-customRedHover">
       Get started
     </router-link>
   </div>
