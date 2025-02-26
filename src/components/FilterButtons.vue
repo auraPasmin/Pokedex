@@ -3,7 +3,7 @@
     <div class="flex justify-around">
       <button
         @click="filterFavorites(false)"
-        :class="!showFavorites ? 'bg-red-500 text-white' : 'bg-gray-300 text-gray-700'"
+        :class="!showFavorites ? 'bg-red-500 text-white' : 'bg-gray-300 text-white'"
         class="flex items-center justify-center px-4 py-2 rounded-full shadow-md w-36 sm:w-64 mx-1 text-center"
       >
         <font-awesome-icon icon="list" class="w-4 h-4 mr-2" /> All
