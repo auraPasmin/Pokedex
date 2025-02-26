@@ -27,9 +27,7 @@
 
           <!-- Imagen del Pokémon -->
           <img
-            :src="
-              pokemon.sprites?.other?.['official-artwork']?.front_default || ''
-            "
+            :src="pokemon.sprites?.other?.['official-artwork']?.front_default || ''"
             alt="Pokemon Image"
             class="w-32 h-32 relative z-10"
           />
@@ -73,9 +71,7 @@
           >
             <font-awesome-icon
               :icon="['fas', 'star']"
-              :class="
-                isFavorite(pokemon.name) ? 'text-yellow-500' : 'text-gray-400'
-              "
+              :class="isFavorite(pokemon.name) ? 'text-yellow-500' : 'text-gray-400'"
               class="w-8 h-8"
             />
           </button>

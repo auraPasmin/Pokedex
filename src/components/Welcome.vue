@@ -1,10 +1,8 @@
 <template>
   <div class="flex flex-col items-center justify-center min-h-screen bg-customBg">
-    <div class="relative w-[205.95px] h-[205.95px] mb-4">
-      <!-- Imagen del círculo -->
-      <img src="@/assets/Ellipse.png" alt="Ellipse" class="w-[205.95px] h-[205.95px]" />
-      <!-- Imagen de Pikachu más grande y sobresaliendo del círculo -->
-      <img src="@/assets/pikachu.png" alt="Pikachu" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pikachu" />
+    <div class="relative circle-container mb-4">
+      <img src="@/assets/Ellipse.png" alt="Ellipse" class="circle" />
+      <img src="@/assets/pikachu.png" alt="Pikachu" class="pikachu" />
     </div>
     
     <h1 class="text-2xl font-bold mb-2">Welcome to Pokédex</h1>
@@ -26,7 +24,16 @@ export default {
 </script>
 
 <style scoped>
-/* Centra y ajusta Pikachu con el nuevo tamaño */
+.circle-container {
+  width: 205.95px;
+  height: 205.95px;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+}
+
 .pikachu {
   position: absolute;
   top: 39%;
