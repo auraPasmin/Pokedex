@@ -17,3 +17,24 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
 
    ```bash
    git clone https://github.com/auraPasmin/Pokedex.git
+   ```
+
+2. **Navega al directorio del proyecto:**
+
+   ```bash
+   cd Pokedex
+   ```
+
+3. **Instala las dependencias:**
+
+   ```bash
+   npm install
+   ```
+
+4. **Ejecuta el servidor de desarrollo:**
+
+   ```bash
+   npm run serve
+   ```
+
+Ahora puedes abrir el proyecto en tu navegador en `http://localhost:8080/`. 
