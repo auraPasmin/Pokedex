@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+  <div class="flex flex-col items-center justify-center min-h-screen bg-customBg">
     <div class="relative w-[205.95px] h-[205.95px] mb-4">
       <!-- Imagen del círculo -->
       <img src="@/assets/Ellipse.png" alt="Ellipse" class="w-[205.95px] h-[205.95px]" />
